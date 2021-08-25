@@ -1,0 +1,84 @@
+h1 {
+    color : white;
+    margin-left: 30px;
+    padding :10px
+}
+ .header * {
+    border : solid;
+}
+
+.header {
+    background-color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    display:flex;
+    justify-content: space-between ;
+}
+
+.menu{
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+.menu a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.site-description {
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px; ;
+    border-spacing: 10cm;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+opacity: 0.33;
+}
+
+.item img{
+    margin: 40px;
+}
+
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: snow;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2 {
+     text-align: center;
+}
+
+body {
+    background-color: aliceblue;
+}
